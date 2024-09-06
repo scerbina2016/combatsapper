@@ -51,7 +51,9 @@ body{
     display: block;
     margin:  auto;
     background-position:left;
+
    background-image: url("./logo/LogoOpforIngineers.jpg");
+
     background-repeat: no-repeat;
     background-size: contain;
     width: 50vh;
@@ -73,7 +75,9 @@ body{
 .ukr{
     width: 60%;
     height: 100%;
+
     background-image: url("./logo/free-icon-ukraine-330540.png");
+
     background-repeat: no-repeat;
     background-size: contain; 
     opacity: 0.8;
@@ -104,7 +108,9 @@ body{
 .eng{
     width: 60%;
     height: 100%;
+
     background-image: url("./logo/free-icon-ukraine-330540.png");
+
     background-repeat: no-repeat;
     background-size: contain; 
     opacity: 0.8;
