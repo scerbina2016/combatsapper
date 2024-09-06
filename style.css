@@ -18,7 +18,10 @@ html {
        letter-spacing: 0px;
                                                        
 }  
-
+a{
+    text-decoration: none;
+    color: #ae9964;
+}
 body{
     display: block;
     width: auto;
@@ -113,4 +116,43 @@ body{
     cursor: pointer;
     opacity: 1;
     transition: all 1s;
+}
+.main-doit{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    
+}
+.button{
+   
+    display: block;
+    margin: auto;
+    color: #ae9964;
+    font-size: 3vh;
+
+}
+
+/*================================================ ptnhl =================================================*/
+
+.ptnhl-main{
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/Pictures/PidorPig.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nahyja-zaliz{
+    color: #ae9964;
+    text-align: center;
+    font-family: 'Major Birch', sans-serif;
+       /*font-size: 100px;*/
+       font-weight: 900;
+       letter-spacing: 0px;
+       color: #ae9964;
 }
