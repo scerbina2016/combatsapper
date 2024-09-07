@@ -44,9 +44,10 @@ body{
     color: #ae9964;
 }
 .main-header{
-    width: 100vw;
+    width: 96vw;
     display: grid;
-    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-columns: 8vw 80vw 8vw;
+    margin: 1px auto 1px auto;
     
 }
 .main-logo-opfor{
@@ -131,7 +132,15 @@ body{
     font-size: 3vh;
 
 }
+.button:hover{
 
+    cursor: pointer;
+    font-size: 4vh;
+    letter-spacing: 1vh;
+    color: red;
+    transition: all 1s;
+
+}
 /*================================================ ptnhl =================================================*/
 
 .ptnhl-main{
@@ -202,6 +211,81 @@ body{
         transition: all 1s;
     }
     
+}
+.doit-item-a{
+    border: black;
+}
 
+.doit-item-a:hover{
+    color: red;
+    transition: all 1s;
+}
 
+/* ======================================== derevo =============================================*/
+
+.derevo-container{
+    display: grid;
+    grid-template-columns: 23vw 23vw 23vw 23vw;
+    grid-template-rows: 23vw 23vw 23vw 23vw;
+    margin: 1vw auto 1vw auto;
+}
+.derevo-item{
+    border: 1px solid yellowgreen;
+    background-color: white;
+}
+#derevo-item-1{
+    background-image: url("./Schemes/Stovbur.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#derevo-item-2{
+    background-image: url("./Schemes/BrusDerevo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#derevo-item-3{
+    background-image: url("./Schemes/DvotavrDerevo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-4{
+    background-image: url("./Schemes/DvotavrDerevoPjdovj.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-5{
+    background-image: url("./Schemes/KolodaKuschi.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-6{
+    background-image: url("./Schemes/PaketKolod.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-7{
+    background-image: url("./Schemes/Koloda2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-8{
+    background-image: url("./Schemes/DerevoGrupaNekontakt.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-9{
+    background-image: url("./Schemes/Peny.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
