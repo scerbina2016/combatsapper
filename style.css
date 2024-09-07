@@ -44,10 +44,11 @@ body{
     color: #ae9964;
 }
 .main-header{
-    width: 96vw;
+    width: 100vw;
+    height: auto;
     display: grid;
-    grid-template-columns: 8vw 80vw 8vw;
-    margin: 1px auto 1px auto;
+    grid-template-columns: 8fr 80fr 8fr;
+    margin:0%;
     
 }
 .main-logo-opfor{
@@ -222,7 +223,12 @@ body{
 }
 
 /* ======================================== derevo =============================================*/
-
+@media (width < 600px) {
+.derevo-header{
+    font-size: 10vw;
+    height: 30vw;
+}
+}
 .derevo-container{
     display: grid;
     grid-template-columns: 23vw 23vw 23vw 23vw;
