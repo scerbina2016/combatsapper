@@ -239,6 +239,13 @@ body{
     border: 1px solid yellowgreen;
     background-color: white;
 }
+
+.derevo-item:hover{
+
+    border: 2px double red;
+    cursor: pointer;
+}
+
 #derevo-item-1{
     background-image: url("./Schemes/Stovbur.jpg");
     background-repeat: no-repeat;
@@ -307,4 +314,13 @@ body{
 iframe{
     width: 100%;
     height: 100%;
+}
+
+
+/* ======================================= calcPage ==============================================*/
+
+.calc-page-test{
+
+color: white;
+
 }
