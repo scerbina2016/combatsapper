@@ -325,8 +325,68 @@ color: white;
 
 }
 
-.calc-field{
 
-    width: 90wv;
 
+/*==============!!!!!!!!!!!!!!!!!!!!!!!!!! example !!!!!!!!!!!!!!!!!!!!!!==========================*/
+
+input{
+    display:inline-block;
 }
+
+.calc-field{
+    display: flex;
+    flex-direction:row;
+    /*align-items: center;*/
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 3vw;
+   /* flex-wrap: nowrap;*/
+}
+#koeficientK{
+    font-size:3vw;
+    width:50vw;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+#button{
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+#diametr{
+    width: 50%;
+    height: fit-content;
+    cursor: pointer;
+}
+.int-schemes{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 50vw;
+    background-image: url("./Schemes/Stovbur.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.opti{
+    width: 50vw;
+    color: blue;
+    font-size: 1.8vw;
+    overflow-x: hidden;
+    
+}
+
+.lab{
+    font-size: 2vw;
+}
+
+.answer-wraper{
+    flex-direction: column;
+}
+
+.answer-field{
+    width: 50%;
+    height: 3vw;
+}
+
+/*================!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!==========================*/

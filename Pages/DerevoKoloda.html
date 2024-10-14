@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Combat Sapper">
+    <meta name="author" content="Andrey Scerbina @scerbina2016">
+    <link rel="icon" type="image/x-icon" href="../Logo/LogoOpfor.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Sapper's book</title>
+</head>
+    <body>
+        <section class="main-header-top-text">
+            <div class="int-schemes" ></div>
+            <fieldset id="calcField">
+            <legend>Перебивання дерева, колоди</legend>
+              <div class="calc-field" id="cf1">
+                <label for="diametr">D діаметр, см</label>
+                <input id="diametr" type="number" name="EntNum1" >   
+              </div>
+              <div class="calc-field" id="cf2">
+                <label for="koeficientK">К коефіцієнт</label>
+                <select id="koeficientK" name="select">
+                    <option class="opti" value="0.8">0.8 Слабкі сухі (осика)</option>
+                    <option class="opti" value="1">1 Середньої міцності (сосна, ялина) сухі</option>
+                    <option class="opti" value="1.6">1.6 Міцні сухі (дуб, клен, бук, ясен, береза)</option>
+                    <option class="opti" value="1">1 Слабкі вологі, на корені (осика)</option>
+                    <option class="opti" value="1.25" selected>1.25 Cередньої міцності вологі, на корені (сосна, ялина)</option>
+                    <option class="opti" value="2">2 Міцні вологі, на корені (дуб, клен, бук, ясен, береза)</option>
+                  </select>
+              </div>
+            </fieldset>
+           <button id="button">Розрахувати</button>
+            <fieldset>
+            <legend>Результати розрахунку</legend>
+            <section class="calc-field answer-wraper" id="cf-out">
+              <div class="calc-field">
+                <label for="answer">Масса заряду, гр.</label>
+                <output class="answer-field" id="answer" ></output> 
+              </div>
+
+              <div class="calc-field">
+                <label for="answerRound">Приведена масса, гр.</label>
+                <output class="answer-field" id="answerRound"></output> 
+              </div>
+
+              <fieldset class="ramka">
+                <legend>400 + 200</legend>
+              <div class="calc-field">
+                <label class="lab" for="answer400">Потрібно шашок 400</label>
+                <output class="answer-field" id="answer400"></output>
+              </div>
+              <div class="calc-field">
+                <label class="lab" for="answer200">Потрібно шашок 200</label>
+                <output class="answer-field" id="answer200"></output>
+              </div>
+              </fieldset>
+              <fieldset class="ramka">
+                <legend>Тільки шашки 200</legend>
+              <div class="calc-field">  
+                <label class="lab" for="answer200">Потрібно шашок 200</label>
+                <output class="answer-field" id="answerOnly200"></output>
+               </div>
+              </fieldset>
+            </section>
+            </fieldset>
+         </section>  
+           
+         <script type="module" src="../script.js"></script>
+    </body>
+</html>
