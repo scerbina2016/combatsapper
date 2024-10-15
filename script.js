@@ -6,7 +6,7 @@ console.log('aaaaaaaaaaaaaaaaaaaaaaaaaaa');
 //========================= for example =======================w
 
 
-const but = document.getElementById('button');
+/*const but = document.getElementById('button');
 const inputDiametr = document.getElementById('diametr');
 const inputKoefK = document.getElementById('koeficientK');
 const inputCalcField = document.getElementById('calcField');
@@ -104,4 +104,4 @@ but.addEventListener('mouseout', function oops() {
     but.style.borderColor='black';
 })
 
-console.log(but); 
+console.log(but); */
