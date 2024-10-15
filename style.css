@@ -336,10 +336,12 @@ input{
 .calc-field{
     display: flex;
     flex-direction:row;
+  
     /*align-items: center;*/
-    justify-content: space-around;
+    justify-content:space-around;
     margin-bottom: 20px;
     font-size: 3vw;
+    /*border: 1px solid #ae9964;*/
    /* flex-wrap: nowrap;*/
 }
 #koeficientK{
@@ -361,8 +363,8 @@ input{
 .int-schemes{
     margin-left: auto;
     margin-right: auto;
-    width: 50vw;
-    height: 50vw;
+    width: 70vw;
+    height: 70vw;
     background-image: url("./Schemes/Stovbur.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -377,7 +379,8 @@ input{
 }
 
 .lab{
-    font-size: 2vw;
+    font-size: 3vw;
+  
 }
 
 .answer-wraper{
@@ -386,7 +389,11 @@ input{
 
 .answer-field{
     width: 50%;
-    height: 3vw;
+    height: 10vw;
+    font-size: 8vw;
+}
+legend{
+    font-size: 5vw;
 }
 
 /*================!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!==========================*/
