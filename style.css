@@ -185,7 +185,7 @@ body{
     font-size: 3vh;
     border: 1px dotted red;
 }
-.doit-item:active{
+.doit-item:hover{
     cursor: pointer;
     font-size: 3vh;
     letter-spacing: 1vh;
@@ -204,7 +204,7 @@ body{
         font-size: 3vw;
         border: 1px dotted red;
     }
-    .doit-item:active{
+    .doit-item:hover{
         cursor: pointer;
         font-size: 3vw;
         letter-spacing: 1vw;
@@ -215,9 +215,10 @@ body{
 }
 .doit-item-a{
     border: black;
+    width: 100%;
 }
 
-.doit-item-a:active{
+.doit-item-a:hover{
     color: red;
     transition: all 1s;
 }
