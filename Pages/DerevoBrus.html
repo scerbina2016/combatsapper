@@ -13,13 +13,18 @@
 </head>
     <body>
         <section class="main-header-top-text">
-            <div class="int-schemes" ></div>
+            <div class="int-schemes-brus" ></div>
             <fieldset id="calcField">
-            <legend>Перебивання дерева, колоди</legend>
-              <div class="calc-field" id="cf1">
-                <label for="diametr">D діаметр, см</label>
-                <input id="diametr" type="number" name="EntNum1" >   
+            <legend>Перебивання дерева, бруса</legend>
+              <div class="calc-field" id="cf-brus-hight">
+                <label for="brus-hight">h, вишина, см</label>
+                <input id="brus-hight" type="number" name="EntNumHightBrus" >   
               </div>
+              <div class="calc-field" id="cf-brus-width">
+                <label for="brus-width">B, товщина, см</label>
+                <input id="brus-width" type="number" name="EntNumWidthBrus" >   
+              </div>
+
               <div class="calc-field" id="cf2">
                 <label for="koeficientK">К коефіцієнт</label>
                 <select id="koeficientK" name="select">
@@ -72,6 +77,6 @@
             </section>
          </section>  
            
-         <script type="module" src="../Code/derevoColoda.js"></script>
+         <script type="module" src="../Code/derevoBrus.js"></script>
     </body>
 </html>

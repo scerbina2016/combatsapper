@@ -209,7 +209,7 @@ body{
         font-size: 3vw;
         letter-spacing: 1vw;
         color: red;
-        transition: all 1s;
+        transition: all 0.5s;
     }
     
 }
@@ -243,7 +243,8 @@ body{
 
 .derevo-item:hover{
 
-    border: 2px double red;
+    border: 5px double red;
+    border-radius: 5%;
     cursor: pointer;
 }
 
@@ -398,3 +399,19 @@ legend{
 }
 
 /*================!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!==========================*/
+
+
+/*================================== Derevo brus =================================================*/
+.int-schemes-brus{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: 70vw;
+    background-image: url("./Schemes/BrusDerevo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* ====================================== End Derevo Brus ==================================*/

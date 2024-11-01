@@ -48,8 +48,8 @@ if (proportion <2) {
     derevoTpansform.innerHTML = `
     
             <a class="derevo-item" id="derevo-item-1" href="./DerevoKoloda.html"></a>
-            <a class="derevo-item" id="derevo-item-2" href="https://docs.google.com/spreadsheets/d/1DeB6WmI6s3-lWcUriF1FX_bTs3Yusq_n6mac0kSg_HY/edit?usp=sharing" target="_blank"></a>
-            <a class="derevo-item" id="derevo-item-3" href="https://docs.google.com/spreadsheets/d/1_A6PHsE6otu_skEWy6_Izcc7j64nyNRHsIux_-LW3UU/edit?usp=sharing" target="_blank"></a>
+            <a class="derevo-item" id="derevo-item-2" href="./DerevoBrus.html"></a>
+            <a class="derevo-item" id="derevo-item-3" href="https://docs.google.com/spreadsheets/d/1_A6PHsE6otu_skEWy6_Izcc7j64nyNRHsIux_-LW3UU/edit?usp=sharing"></a>
 
             <a class="derevo-item" id="derevo-item-4" href="https://docs.google.com/spreadsheets/d/1TOApJlkKvs2zRspDwbDTIg_zmP9jZQzEYyEiR46tXo0/edit?usp=sharing" target="_blank" ></a>
             <a class="derevo-item" id="derevo-item-5" href="https://docs.google.com/spreadsheets/d/1Ou3hH2Wv3R9JV1BQW0MNN9CgBXSGo13pAZU0donhq44/edit?usp=sharing" target="_blank" ></a>

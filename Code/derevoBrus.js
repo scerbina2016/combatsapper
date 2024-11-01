@@ -1,7 +1,7 @@
 const but = document.getElementById('button');
-const inputDiametr = document.getElementById('diametr');
+const inputHight = document.getElementById('brus-hight');
 const inputKoefK = document.getElementById('koeficientK');
-const dovjinaKola = document.getElementById('dovjinaKola');
+const inputWidth = document.getElementById('brus-width');
 const inputCalcField = document.getElementById('calcField');
 const inputArr = document.querySelectorAll('input');
 const answer = document.getElementById('answer');
@@ -25,12 +25,12 @@ let am200 = 0;
 let total200 = 0;
 
 inputCalcField.addEventListener('change', () => {
-    if (Number(inputDiametr.value) > 30) {
-       answerNum = Math.round(Number(inputDiametr.value) * Number(inputDiametr.value) * Number(inputKoefK.value)* (Number(inputDiametr.value)/30)); 
+    if (Number(inputHight.value) > 30) {
+       answerNum = Math.round(Number(inputHight.value) * Number(inputWidth.value) * Number(inputKoefK.value)* (Number(inputHight.value)/30)); 
         cl('>35 ====>' + answerNum + 'diam ==>' + Number(inputDiametr.value));
     } else {
-        answerNum = Math.round(Number(inputDiametr.value) * Number(inputDiametr.value) * Number(inputKoefK.value));
-        cl('<35 ====>'+answerNum + 'diam ==>' + Number(inputDiametr.value));
+        answerNum = Math.round(Number(inputHight.value) * Number(inputWidth.value) * Number(inputKoefK.value));
+        cl('<35 ====>'+answerNum + 'diam ==>' + Number(inputHight.value));
     };
     
 
@@ -43,11 +43,7 @@ inputCalcField.addEventListener('change', () => {
     answerOnly200.innerText = amRound200/200;
 })
 
-dovjinaKola.addEventListener('change', () =>{
-    diametrNum = Math.ceil(Number(dovjinaKola.value)/Math.PI);
-    inputDiametr.value = diametrNum;
-    cl('calc dsam from dovjina = > '+ diametrNum);
-})
+
 
 inputDiametr.addEventListener('change', () =>{
     diametrNum = Number(inputDiametr.value);
