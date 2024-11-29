@@ -1,0 +1,417 @@
+@import url('https://fonts.cdnfonts.com/css/dasher');
+@import url('https://fonts.cdnfonts.com/css/major-birch');
+:root{box-sizing: border-box;
+    /*font-family:Roboto;*/
+    margin: 0px;
+    padding: 0px;
+    
+    }
+
+html {
+       /*scroll-behavior:smooth;*/
+       /*font-family: 'SF Compact Display', sans-serif;*/
+       /*font-family: 'Dasher';*/
+       font-family: 'Major Birch', sans-serif;
+       /*font-size: 100px;*/
+       font-weight: 900;
+       letter-spacing: 0px;
+                                                       
+}  
+a{
+    text-decoration: none;
+    color: #ae9964;
+}
+body{
+    display: block;
+    width: auto;
+    overflow-x: hidden;
+    background-color:black ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+        /*display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;*/
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    color: #ae9964;
+}
+.main-header{
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 8fr 80fr 8fr;
+    margin:0%;
+    
+}
+.main-logo-opfor{
+    display: block;
+    margin:  auto;
+    background-position:left;
+   background-image: url("./Logo/LogoOpforIngineers.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vh;
+    height: 50vh;
+}
+
+.main-logo-opfor-pic{
+    margin: auto;
+    
+}
+.main-header-left{
+    grid-column: 1/2;
+    color: #ae9964;
+
+}
+.lang{
+    margin: auto;
+}
+.ukr{
+    width: 60%;
+    height: 100%;
+    background-image: url("./Logo/free-icon-ukraine-330540.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    opacity: 0.8;
+}
+.ukr:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: all 1s;
+}
+.main-header-top-text{
+    display: block;
+    grid-column: 2 / 3;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Major Birch', sans-serif;
+       /*font-size: 100px;*/
+       font-weight: 900;
+       letter-spacing: 0px;
+       color: #ae9964;
+       font-size: 3vh;
+       margin: auto;
+}
+.main-header-right{
+    grid-column: 3/4;
+    color: #ae9964;
+}
+.eng{
+    width: 60%;
+    height: 100%;
+    background-image: url("./Logo/free-icon-ukraine-330540.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    opacity: 0.8;
+}
+.eng:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: all 1s;
+}
+.main-doit{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100vw;
+    flex-direction: row;
+    
+}
+.button{
+   
+    display: block;
+    margin: auto;
+    color: #ae9964;
+    font-size: 3vh;
+
+}
+.button:hover{
+
+    cursor: pointer;
+    font-size: 4vh;
+    letter-spacing: 1vh;
+    color: red;
+    transition: all 1s;
+
+}
+/*================================================ ptnhl =================================================*/
+
+.ptnhl-main{
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./Pictures/PidorPig.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nahyja-zaliz{
+    color: #ae9964;
+    text-align: center;
+    font-family: 'Major Birch', sans-serif;
+       /*font-size: 100px;*/
+       font-weight: 900;
+       letter-spacing: 0px;
+       color: #ae9964;
+}
+.music{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* =========================================== DoIt ================================================*/
+
+.doit-main-header{
+
+    font-size: 5vh;
+    height: 15vh;
+}
+.doit-item{
+    width: 80vw;
+    font-size: 3vh;
+    border: 1px dotted red;
+}
+.doit-item:hover{
+    cursor: pointer;
+    font-size: 3vh;
+    letter-spacing: 1vh;
+    color: red;
+    transition: all 1s;
+}
+
+@media (orientation: landscape) { 
+    .doit-main-header{
+
+        font-size: 5vw;
+        height: 15vw;
+    }
+    .doit-item{
+        width: 80vw;
+        font-size: 3vw;
+        border: 1px dotted red;
+    }
+    .doit-item:hover{
+        cursor: pointer;
+        font-size: 3vw;
+        letter-spacing: 1vw;
+        color: red;
+        transition: all 0.5s;
+    }
+    
+}
+.doit-item-a{
+    border: black;
+    width: 100%;
+}
+
+.doit-item-a:hover{
+    color: red;
+    transition: all 1s;
+}
+
+/* ======================================== derevo =============================================*/
+@media (width < 600px) {
+.derevo-header{
+    font-size: 10vw;
+    height: 30vw;
+}
+}
+.derevo-container{
+    display: grid;
+    grid-template-columns: 23vw 23vw 23vw 23vw;
+    grid-template-rows: 23vw 23vw 23vw;
+    margin: 1vw auto 1vw auto;
+}
+.derevo-item{
+    border: 1px solid yellowgreen;
+    background-color: white;
+}
+
+.derevo-item:hover{
+
+    border: 5px double red;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+#derevo-item-1{
+    background-image: url("./Schemes/Stovbur.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#derevo-item-2{
+    background-image: url("./Schemes/BrusDerevo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#derevo-item-3{
+    background-image: url("./Schemes/DvotavrDerevo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-4{
+    background-image: url("./Schemes/DvotavrDerevoPjdovj.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-5{
+    background-image: url("./Schemes/KolodaKuschi.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-6{
+    background-image: url("./Schemes/PaketKolod.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-7{
+    background-image: url("./Schemes/Koloda2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-8{
+    background-image: url("./Schemes/DerevoGrupaNekontakt.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#derevo-item-9{
+    background-image: url("./Schemes/Peny.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.derevo-calculations{
+    display: flex;
+    flex-direction: column;
+}
+.derevo-calculations-item{
+    width: 92vw;
+   height: 30vw;
+    border: 2px solid blue;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ======================================= calcPage ==============================================*/
+
+.calc-page-test{
+
+color: white;
+
+}
+
+
+
+/*==============!!!!!!!!!!!!!!!!!!!!!!!!!! example !!!!!!!!!!!!!!!!!!!!!!==========================*/
+
+input{
+    display:inline-block;
+}
+
+.calc-field{
+    display: flex;
+    flex-direction:row;
+  
+    /*align-items: center;*/
+    justify-content:space-around;
+    margin-bottom: 20px;
+    font-size: 3vw;
+    /*border: 1px solid #ae9964;*/
+   /* flex-wrap: nowrap;*/
+}
+#koeficientK{
+    font-size:3vw;
+    width:50vw;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+#button{
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+#diametr{
+    width: 50%;
+    height: fit-content;
+    cursor: pointer;
+}
+.int-schemes{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: 70vw;
+    background-image: url("./Schemes/Stovbur.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.opti{
+    width: 50vw;
+    color: blue;
+    font-size: 1.8vw;
+    overflow-x: hidden;
+    
+}
+
+.lab{
+    font-size: 3vw;
+  
+}
+
+.answer-wraper{
+    flex-direction: column;
+}
+
+.answer-field{
+    width: 50%;
+    height: 10vw;
+    font-size: 8vw;
+}
+legend{
+    font-size: 5vw;
+}
+
+/*================!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!==========================*/
+
+
+/*================================== Derevo brus =================================================*/
+.int-schemes-brus{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: 70vw;
+    background-image: url("./Schemes/BrusDerevo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* ====================================== End Derevo Brus ==================================*/

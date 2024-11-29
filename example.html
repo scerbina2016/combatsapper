@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Sample HTML</title>
+    </head2>
+    <body>
+        <section class="main-header-top-text">
+            <div class="int-schemes" >
+                
+            </div>
+          
+            <fieldset id="calcField">
+            <legend>Перебивання дерева, колоди</legend>
+              <div class="calc-field" id="cf1">
+                <label for="diametr">D діаметр, см</label>
+                <input id="diametr" type="number" name="EntNum1" >   
+              </div>
+              <div class="calc-field" id="cf2">
+                <label for="koeficientK">К коефіцієнт</label>
+                <select id="koeficientK" name="select">
+                    <!--Supplement an id here instead of using 'name'-->
+                    <option class="opti" value="0.8">0.8 Слабкі сухі (осика)</option>
+                    <option class="opti" value="1">1 Середньої міцності (сосна, ялина) сухі</option>
+                    <option class="opti" value="1.6">1.6 Міцні сухі (дуб, клен, бук, ясен, береза)</option>
+                    <option class="opti" value="1">1 Слабкі вологі, на корені (осика)</option>
+                    <option class="opti" value="1.25" selected>1.25 Cередньої міцності вологі, на корені (сосна, ялина)</option>
+                    <option class="opti" value="2">2 Міцні вологі, на корені (дуб, клен, бук, ясен, береза)</option>
+                  </select>
+
+
+                <!--<label for="koeficientK">К коефіцієнт</label>
+                <input id="koeficientK" type="number" name="EntNum2" >  -->
+              </div>
+              
+             <!--  <div class="calc-field" id="cf3">
+                <label for="inp3">Input field 3</label>
+                <input id="inp3" type="number" name="EntNum3" >   
+              </div>
+              <div class="calc-field" id="cf4">
+                <label for="inp4">Input field 4</label>
+                <input id="inp4" type="number" name="EntNum4" >  
+              </div>
+              <div class="calc-field" id="cf5">
+                <label for="inp5">Input field 5</label>
+                <input id="inp5" type="number" name="EntNum5" >   
+              </div>
+              <div class="calc-field" id="cf6">
+                <label for="inp6">Input field 6</label>
+                <input id="inp6" type="number" name="EntNum6" >   
+              </div>-->
+            </fieldset>
+           <button id="button">Розрахувати</button>
+            <fieldset>
+            <legend>Результати розрахунку</legend>
+            <section class="calc-field answer-wraper" id="cf-out">
+              <div class="calc-field">
+                <label for="answer">Масса заряду, гр.</label>
+                <output class="answer-field" id="answer" ></output> 
+              </div>
+
+              <div class="calc-field">
+                <label for="answerRound">Приведена масса, гр.</label>
+                <output class="answer-field" id="answerRound"></output> 
+              </div>
+
+              <fieldset class="ramka">
+                <legend>400 + 200</legend>
+              <div class="calc-field">
+                <label class="lab" for="answer400">Потрібно шашок 400</label>
+                <output class="answer-field" id="answer400"></output>
+              </div>
+              <div class="calc-field">
+                <label class="lab" for="answer200">Потрібно шашок 200</label>
+                <output class="answer-field" id="answer200"></output>
+              </div>
+              </fieldset>
+
+              <fieldset class="ramka">
+                <legend>Тільки шашки 200</legend>
+              <div class="calc-field">  
+                <label class="lab" for="answer200">Потрібно шашок 200</label>
+                <output class="answer-field" id="answerOnly200"></output>
+               </div>
+              </fieldset>
+
+            </section>
+            </fieldset>
+         </section>  
+           
+         <script type="module" src="script.js"></script>
+    </body>
+</html>
